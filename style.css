@@ -42,7 +42,7 @@ body{
     border-radius: 1rem;
     border: none;
     background-color: #e2e4ed;
-    color: white;
+    color: black;
 }
 
 #new-btn{
@@ -51,7 +51,7 @@ body{
     border-radius: 1rem;
     border: none;
     background-color: #dbdce5;
-    color: white;
+    color: black;
 }
 
 #msg{
