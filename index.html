@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe Game</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="msg-container hide">
         <p id="msg">Winner</p>
         <button id="new-btn">New Game</button>
     </div>
+
+    <div class="draw-msg hide2">
+        <p id="msg2">Match is Draw!</p>
+    </div>
+
     <main>
         <h1>Tic Tac Toe</h1>
+        <h3>This is a two players game!</h3>
         <div class="container">
             <div class="game">
                 <button class="box"></button>
@@ -28,6 +35,35 @@
         </div>
         <button id="reset-btn">Reset Game</button>
     </main>
+
+<footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Developer : Raushan Tiwari</p>
+                <p>Phone : +91 93343 16894</p>
+                <p>Address : Patna</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                    <ul class="list">
+                        <li><a>Home</a></li>
+                        <li><a>Service</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Products</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Me</h3>
+                <li><a href="https://www.instagram.com/raushan._19/?hl=en" style="color: white;"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://github.com/raushan-19" style="color: white;"><i class="fa-brands fa-github"></i></a></li>
+            </div>
+        </div>
+        <div class="button-bar">
+            <p>&copy; 2025 Tic-Tac-Toe.All rights reserved</p>
+        </div>
+</footer>
 
     <script src="app.js" defer></script>
 </body>
