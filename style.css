@@ -72,20 +72,6 @@ body{
     display: none;
 }
 
-.hide2{
-    display: none;
-}
-
-.draw-msg {
-    height: 100vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-    display: none;
-}
-
 h3{
     padding-top: 1.5rem;
 }
